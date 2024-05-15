@@ -9,8 +9,8 @@ load_dotenv("config.env")
 ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🥵")
 ALIVE_LOGO = getenv("ALIVE_LOGO", "https://graph.org/file/ec99cb6dba229bd984537.jpg")
 ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
-API_HASH = getenv("API_HASH", "34efb38c74d5e6b25d1bb6234396a8af")
-API_ID = getenv("API_ID", "23129036")
+API_HASH = getenv("API_HASH", "28734a0e649cf37aafd4657f0ef0a5cd")
+API_ID = getenv("API_ID", "24732859")
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BOT_VER = "3.0.0@main"
 BRANCH = getenv("BRANCH", "main") #don't change this line 
@@ -38,7 +38,7 @@ STRING_SESSION7 = getenv("STRING_SESSION7", "")
 STRING_SESSION8 = getenv("STRING_SESSION8", "")
 STRING_SESSION9 = getenv("STRING_SESSION9", "")
 STRING_SESSION10 = getenv("STRING_SESSION10", "")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6694740726").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6930613470").split()))
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001608701614, -1001675459127, -1001473548283, -1001608701614]
